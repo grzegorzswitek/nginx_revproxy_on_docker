@@ -12,7 +12,7 @@ This package contains nginx reverse proxy and two sample service (apache and dja
 	* change server_name in nginx.conf to your domain name
 	* run `docker-compose -f reverse_proxy/docker-compose.yml up`
 4. If you don't have own domain, add to `/etc/hosts` file:  
-	`127.0.0.1 apache`
+	`127.0.0.1 apache`  
 	`127.0.0.1 django`
 5. Open in browser:
 	* [apache/](http://apache/)
