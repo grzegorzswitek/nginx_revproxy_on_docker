@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  apache_1:
+    image: httpd:2.4
+    networks:
+      - rev_proxy
+
+networks:
+  rev_proxy:
+    external:
+      name: reverse_proxy_net
